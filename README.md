@@ -86,12 +86,6 @@ EcoLibrary is intended for educational communities, non-profits, and sustainabil
 
 ---
 
-## 📜 License
-
-MIT License – Free to use and modify.
-
----
-
 ## 🤝 Contribution
 
 Feel free to fork, open issues, or send pull requests. Let’s grow this green library together! 🌱
