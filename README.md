@@ -11,7 +11,7 @@
 ✅ **Responsive Dashboard Interface**  
 ✅ **Book Category Management**  
 ✅ **User-Friendly Navigation**  
-✅ **Member Chat & File Sharing Area** 🚨📎  
+✅ **Member Chat & File Sharing Area** 🗨️📎  
 ✅ **Admin-Only News Management Panel** 📰  
 ✅ **Modular PHP Architecture**  
 ✅ **SQL-ready database for instant deployment**
@@ -86,6 +86,11 @@ EcoLibrary is intended for educational communities, non-profits, and sustainabil
 
 ---
 
+
 ## 🤝 Contribution
 
 Feel free to fork, open issues, or send pull requests. Let’s grow this green library together! 🌱
+
+---
+
+> **Note:** The `lib/` directory contains essential assets (CSS, JS, and image files), but it is excluded from this repository due to its large file size. If needed, feel free to contact me, and I’ll be happy to share those resources with you.
