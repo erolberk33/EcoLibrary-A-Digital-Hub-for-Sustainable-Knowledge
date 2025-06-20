@@ -54,7 +54,7 @@ if ($id > 0) {
         <span>Content Primary :</span>
         <div class="form-group">
             <input list="authorList" class="form-control" id="content_primary" name="content_primary"
-                placeholder="Enter Content Primary" value="<?php echo htmlspecialchars($content_primary); ?>">
+                placeholder="Enter Content Primary" value="<?php echo htmlspecialchars($content_primary ?? ''); ?>">
 
         </div>
     </div>
@@ -64,17 +64,17 @@ if ($id > 0) {
         <span>Content Secondary :</span>
         <div class="form-group">
             <input type="text" class="form-control" id="content_secondary" name="content_secondary"
-                placeholder="Enter Content Secondary" value="<?php echo htmlspecialchars($content_secondary); ?>">
+                placeholder="Enter Content Secondary" value="<?php echo htmlspecialchars($content_secondary ?? ''); ?>">
         </div>
     </div>
 
 
     <!-- GİZLİ ALANLAR -->
-    <?php if (isset($id) && $id == 0) { ?>
-
+    <?php if (empty($id)) { ?>
         <input type="hidden" name="user_id" id="user_id" value="<?php echo htmlspecialchars($login_id); ?>">
         <input type="hidden" id="created_at" name="created_at" value="<?php echo date('Y-m-d H:i:s'); ?>">
     <?php } ?>
+
     <input type="hidden" name="id" id="content_id" value="<?php echo htmlspecialchars($_REQUEST['id']); ?>">
     <input type="hidden" name="tablo_adi" value="community_contents">
 </form>
