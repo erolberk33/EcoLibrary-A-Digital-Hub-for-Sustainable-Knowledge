@@ -37,7 +37,7 @@ $id = $_GET['id'];
         border-radius: 8px;
         padding: 10px;
         height: calc(100vh - 680px);
-        /* ekran yüksekliği - başlık alanı ve input formu */
+        /* ekran yüksekliÄÂi - baÅÂlÄ±k alanÄ± ve input formu */
     }
 
 
@@ -72,7 +72,7 @@ $chats = $db->select();
     <?php $first = $chats[0]; ?>
 <?php else: ?>
     <?php
-    // Eğer hiç yorum yoksa yine de başlık ve formu göstermek için başlık bilgilerini al
+    // EÄÂer hiç yorum yoksa yine de baÅÂlÄ±k ve formu göstermek için baÅÂlÄ±k bilgilerini al
     $db->sql = "SELECT 
         community_contents.content_primary,
         community_topics.title,
@@ -121,7 +121,7 @@ if ($file && count($file) > 0) {
 }
 ?>
 <div class="container mt-0">
-    <!-- Forum Başlık Alanı -->
+    <!-- Forum BaÅÂlÄ±k AlanÄ± -->
     <div class="mb-4 border-bottom pb-3">
         <h1 class="fw-bold"><?php echo htmlspecialchars($first->title); ?></h1>
         <p class="text-muted mb-1"><?php echo htmlspecialchars($first->content_primary); ?></p>
@@ -139,7 +139,7 @@ if ($file && count($file) > 0) {
                     <div class="card-body d-flex">
                         <div class="me-3 text-center" style="min-width: 120px;">
                             <?php
-                            // Kullanıcıya ait görsel varsa onu, yoksa varsayılanı kullan
+                            // KullanÄ±cÄ±ya ait görsel varsa onu, yoksa varsayÄ±lanÄ± kullan
                             $imagePath = (!empty($value->user_image))
                                 ? 'uploads/user/' . $value->user_image
                                 : './lib/assets/img/users.jpg';
@@ -159,7 +159,7 @@ if ($file && count($file) > 0) {
 
                             <div class="mb-1">
                                 <?php
-                                // Bu yorum satırına ait tüm 'chats' dosyalarını çek
+                                // Bu yorum satÄ±rÄ±na ait tüm 'chats' dosyalarÄ±nÄ± çek
                                 $stmt = $db->prepare("SELECT * FROM dosya WHERE alt_id = ? AND yer = 'chats'");
                                 $stmt->execute([$value->id]);
                                 $chat_files = $stmt->fetchAll(PDO::FETCH_OBJ);
@@ -168,14 +168,14 @@ if ($file && count($file) > 0) {
                                 <?php if (!empty($chat_files)): ?>
                                     <?php foreach ($chat_files as $file): ?>
                                         <?php
-                                        $filename = $file->dosya_adi; // orijinal dosya adı
+                                        $filename = $file->dosya_adi; // orijinal dosya adÄ±
                                         $ext = pathinfo($filename, PATHINFO_EXTENSION);
 
-                                        // İzin verilen uzantılarla kontrol
+                                        // Ä°zin verilen uzantÄ±larla kontrol
                                         $allowed = ['jpg', 'png', 'pdf', 'doc', 'docx'];
 
                                         if (in_array(strtolower($ext), $allowed)) {
-                                            $filepath = '/digital/uploads/chats/' . rawurlencode($filename); // orijinal adla path oluştur
+                                            $filepath = '/uploads/chats/' . rawurlencode($filename); // orijinal adla path oluÅÂtur
                                             ?>
                                             <a href="<?php echo $filepath; ?>" class="badge bg-secondary me-2" target="_blank"
                                                 rel="noopener noreferrer">
@@ -211,7 +211,7 @@ if ($file && count($file) > 0) {
         </div>
     </div>
 
-    <!-- 📝 Sabit Sohbet Giriş Alanı -->
+    <!-- ðÂÂÂ Sabit Sohbet GiriÅÂ AlanÄ± -->
     <div class="fixed-chat-input">
         <div class="container">
             <form id="commentForm" method="POST" action="index.php?url=tools/insert_comment"
