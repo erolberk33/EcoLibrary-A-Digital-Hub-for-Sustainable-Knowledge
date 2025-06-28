@@ -32,18 +32,23 @@ error_reporting(E_ALL);
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
                         data-aos="fade-up">
                         <h1>Explore Knowledge. Sustain the Future.</h1>
-                        <p>Welcome to the My Digital Ecological Library — a digital gateway to eco-conscious knowledge,
-                            open access resources, and collaborative learning.</p>
+                        <p>"My Digital Ecological Library" is an international project aimed at integrating
+                            environmental education into curricula and creating innovative educational materials.
+                            This project has been accepted by FR01 - Agence Erasmus+ France / Education et
+                            Formation and the project number is 2023-1-FR01-KA220-SCH-000160727.</p>
                         <div class="d-flex">
                             <a href="#about" class="btn-get-started">Discover More</a>
-                            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
                                 class="glightbox btn-watch-video d-flex align-items-center"><i
-                                    class="bi bi-play-circle"></i><span>Watch Intro</span></a>
+                                    class="bi bi-play-circle"></i><span>Watch Intro</span></a> -->
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                        <img src="lib/temp/img/hero-img.png" class="img-fluid animated"
-                            alt="Digital Library Illustration">
+                        <img src="lib/temp/img/about2.jpg" class="img-fluid animated rounded"
+                            alt="Digital Library Overview">
+
+                        <!-- <img src="lib/temp/img/hero-img.png" class="img-fluid animated"
+                            alt="Digital Library Illustration"> -->
                     </div>
                 </div>
             </div>
@@ -62,17 +67,24 @@ error_reporting(E_ALL);
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-journal-richtext icon"></i></div>
                             <h4><a href="#" class="stretched-link">Open Access Resources</a></h4>
-                            <p>Gain free and sustainable access to digital books, academic articles, and educational
-                                materials anytime, anywhere.</p>
+                            <p>Within the scope of the project, a cross-curriculum was developed for learners aged
+                                12 to 18, structured across six proficiency levels. In line with this curriculum, a
+                                variety of open-access teaching and learning materials were produced to support teachers
+                                and educators. These resources are freely available for use, adaptation, and
+                                dissemination.
+                            </p>
                         </div>
                     </div><!-- End Service Item -->
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-globe-europe-africa icon"></i></div>
-                            <h4><a href="#" class="stretched-link">Ecological Awareness</a></h4>
-                            <p>Promote digital literacy and environmental consciousness by sharing knowledge in an
-                                eco-friendly way.</p>
+                            <h4><a href="#" class="stretched-link">Teacher’s Guide</a></h4>
+                            <p>This guide provides educators with comprehensive instructions on how to implement
+                                the curriculum and effectively use the materials developed within the project. I
+                                includes practical tips, methodological recommendations, and step-by-step guidance
+                                for classroom application
+                            </p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -80,8 +92,11 @@ error_reporting(E_ALL);
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-people icon"></i></div>
                             <h4><a href="#" class="stretched-link">Community Engagement</a></h4>
-                            <p>Connect with students, educators, and researchers to collaborate, share experiences, and
-                                contribute to the platform.</p>
+                            <p>
+                                Connect with educators and researchers to collaborate, share experiences, and contribute
+                                to the platform.
+                            </p>
+
                         </div>
                     </div><!-- End Service Item -->
 
@@ -99,36 +114,67 @@ error_reporting(E_ALL);
             <div class="container section-title" data-aos="fade-up">
                 <span>About Us<br></span>
                 <h2>About</h2>
-                <p>Empowering people through open access to sustainable knowledge and digital learning tools.</p>
+                <p style="text-align: justify;">
+                    MyEco-Library is born out of a shared responsibility to protect nature. Recognizing the critical
+                    role
+                    of education and youth in the fight against global climate change, the project aims to mobilize
+                    teaching and learning processes in a lasting and meaningful way. Education is the most powerful tool
+                    for shaping thoughts and behaviors. Today’s students understand that they are not only learning
+                    subjects, but also shaping the future.
+                    As educators, our mission is to foster lasting behavioral change and equip students with real-life
+                    problem-solving skills for environmental challenges. The Project addresses this reality by raising
+                    ecological awareness among lower secondary school students and promoting interdisciplinary learning
+                    methods that go beyond traditional instruction.
+                    In today’s Europe, environmental education is increasingly embedded into national curricula. In line
+                    with this shift, our project aligns its objectives, activities, and tangible results with EU
+                    priorities on sustainability and education. By training teachers, developing classroom-ready
+                    learning kits, and integrating them into existing curricula, we aim to contribute to a global goal.
+                </p>
+
             </div><!-- End Section Title -->
 
             <div class="container">
 
                 <div class="row gy-4">
                     <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                        <img src="lib/temp/img/about.png" class="img-fluid" alt="Digital Library Overview">
-                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"
+                        <!-- <img src="lib/temp/img/about.png" class="img-fluid" alt="Digital Library Overview"> -->
+                        <img src="lib/assets/img/curved-images/curved_new.png" class="img-fluid rounded"
+                            alt="Digital Library Overview">
+
+                        <a href="/lib/video/about_video.mp4" class="glightbox pulsating-play-btn"
                             title="Watch Introduction Video"></a>
                     </div>
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Our Mission: Sustainable Access to Knowledge</h3>
+                        <h3>Project Objectives & Key Results</h3>
                         <p class="fst-italic">
                             My Digital Ecological Library is an innovative platform designed to provide free and
                             eco-conscious access to educational and cultural resources across the globe.
                         </p>
                         <ul>
-                            <li><i class="bi bi-check2-all"></i> <span>Curated digital collections in multiple languages
-                                    and disciplines.</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Promotes environmental awareness through
-                                    sustainable information sharing.</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Encourages collaboration among students,
-                                    educators, and researchers worldwide.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Analysis curricula to identify common learning
+                                    outcomes related to environmental education.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Development of interdisciplinary and engaging
+                                    learning materials—videos, games, presentations, visuals, interviews, models, and
+                                    sample lesson plans—available in partner languages and English.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Creation of an Open Online Course (OOC) with
+                                    structured materials, goals, and methodologies.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>A Teacher’s Handbook (in national languages and
+                                    English) with detailed methodology, content background, activity plans, and
+                                    guidelines for using the OOC and materials effectively.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Train the Trainer” seminars to pilot, evaluate,
+                                    and improve course materials, ensuring wider and sustainable usage.</span></li>
                         </ul>
                         <p>
-                            By combining technology with ecological responsibility, our library fosters global learning
-                            while minimizing environmental impact. Join us in redefining education for a greener future.
+                            To explore the educational materials developed within the project, please visit our Library
+                            section, where you’ll find ready-to-use resources designed for teachers.
                         </p>
                     </div>
+                    <p>For detailed information on our project outcomes—including the Common Curriculum Framework and
+                        the Teacher’s Handbook—please head to the Results section.
+                        If you would like to connect, ask questions, or share your own insights and experiences, we
+                        warmly invite you to become part of our growing network via the Community page.
+                        Together, we can empower the next generation to protect the planet through education.
+                    </p>
                 </div>
 
             </div>
@@ -137,7 +183,7 @@ error_reporting(E_ALL);
 
 
         <!-- Stats Section -->
-        <section id="stats" class="stats section">
+        <!-- <section id="stats" class="stats section">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -149,7 +195,7 @@ error_reporting(E_ALL);
                                 class="purecounter"></span>
                             <p>Digital Resources</p>
                         </div>
-                    </div><!-- End Stats Item -->
+                    </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="stats-item text-center w-100 h-100">
@@ -157,7 +203,7 @@ error_reporting(E_ALL);
                                 class="purecounter"></span>
                             <p>Partner Institutions</p>
                         </div>
-                    </div><!-- End Stats Item -->
+                    </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="stats-item text-center w-100 h-100">
@@ -165,7 +211,7 @@ error_reporting(E_ALL);
                                 class="purecounter"></span>
                             <p>Active Users</p>
                         </div>
-                    </div><!-- End Stats Item -->
+                    </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="stats-item text-center w-100 h-100">
@@ -173,13 +219,14 @@ error_reporting(E_ALL);
                                 class="purecounter"></span>
                             <p>Languages Available</p>
                         </div>
-                    </div><!-- End Stats Item -->
+                    </div>
 
                 </div>
 
             </div>
 
-        </section><!-- /Stats Section -->
+        </section> -->
+        <!-- /Stats Section -->
 
 
         <!-- News & Stories Section -->
@@ -187,7 +234,7 @@ error_reporting(E_ALL);
             <div class="container section-title" data-aos="fade-up">
                 <span>News</span>
                 <h2>Latest Added News</h2>
-                <p>The latest news, updates, and announcements are listed here.</p>
+                <p>News From My Digital Ecological Library.</p>
             </div>
 
             <div class="container">
@@ -238,17 +285,17 @@ error_reporting(E_ALL);
 
                                         </p>
                                         <div class="author align-items-center d-flex">
-                                            <img src="./lib/assets/img/users.jpg" alt="Author" class="avatar shadow"
-                                                width="50px" height="50px">
+                                            <!-- <img src="./lib/assets/img/users.jpg" alt="Author" class="avatar shadow"
+                                                width="50px" height="50px"> -->
                                             <b>
 
                                                 <div class="name ps-3">
-                                                    <?php echo !empty($typenews->author) ? htmlspecialchars($typenews->author) : 'UNDEFINED'; ?>
+                                                    <!-- <?php echo !empty($typenews->author) ? htmlspecialchars($typenews->author) : 'UNDEFINED'; ?> -->
 
                                             </b>
                                             <div class="stats">
-                                                <small>
-                                                    <?php echo date('d M Y', strtotime($typenews->created_at ?? 'now')); ?></small>
+                                                <!-- <small>
+                                                    <?php echo date('d M Y', strtotime($typenews->created_at ?? 'now')); ?></small> -->
                                             </div>
                                         </div>
 
@@ -267,9 +314,208 @@ error_reporting(E_ALL);
         </section>
 
 
+        <!-- E-NEWS Section -->
+        <section id="library" class="services section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <span>E-NEWS</span>
+                <h3 class="mb-1">Monthly Digital Bulletins</h3>
+                <p>Browse our collection of monthly E-NEWS bulletins featuring ecological education highlights,
+                    student-led initiatives, and international collaborations. You can explore each bulletin in detail
+                    to stay informed about our ongoing impact and innovation efforts across the network.</p>
+
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item position-relative">
+                            <div class="icon bg-secondary">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <button type="button" class="btn stretched-link p-0 text-start" data-bs-toggle="modal"
+                                data-bs-target="#newsModal2">
+                                <h3 class="mb-1">April 2024 Bulletin</h3>
+                            </button>
+                            <p>This issue features cross-cultural student dialogues, eco-themed classroom activities,
+                                and teacher development workshops held in April 2024.</p>
+                        </div>
+                    </div>
+
+                    <!-- Modal (Tam Ekran) -->
+                    <div class="modal fade" id="newsModal2" tabindex="-1" aria-labelledby="newsModal2Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="newsModal2Label">April 2024 E-NEWS Bulletin</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body p-0">
+                                    <iframe
+                                        src="https://drive.google.com/file/d/1mTzpTTkcMFgayRIjFp0osuuZ_ykcu-sy/preview"
+                                        width="100%" height="100%" style="border:none;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
+                    <!-- End Module 1 -->
+
+
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item position-relative">
+                            <div class="icon bg-secondary">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <button type="button" class="btn stretched-link p-0 text-start" data-bs-toggle="modal"
+                                data-bs-target="#newsModal4">
+                                <h3 class="mb-1">June 2024 Bulletin</h3>
+                            </button>
+                            <p>This bulletin covers June highlights, including teacher training sessions, student-led
+                                green events, and curriculum-based eco-learning modules.</p>
+                        </div>
+                    </div>
+
+                    <!-- Modal (Tam ekran) -->
+                    <div class="modal fade" id="newsModal4" tabindex="-1" aria-labelledby="newsModal4Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="newsModal4Label">June 2024 E-NEWS Bulletin</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body p-0">
+                                    <iframe
+                                        src="https://drive.google.com/file/d/1sc4gtPlA0u3g-LAS67Y7xXocWNI15Q1c/preview"
+                                        width="100%" height="100%" style="border:none;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- End Module 2 -->
+
+
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item position-relative">
+                            <div class="icon bg-secondary">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <button type="button" class="btn stretched-link p-0 text-start" data-bs-toggle="modal"
+                                data-bs-target="#newsModal1">
+                                <h3 class="mb-1">March 2024 Bulletin</h3>
+                            </button>
+                            <p>Highlights from our ecological learning programs, student workshops, and community-based
+                                sustainability projects.</p>
+                        </div>
+                    </div>
+
+                    <!-- Modal (Tam ekran) -->
+                    <div class="modal fade" id="newsModal1" tabindex="-1" aria-labelledby="newsModal1Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="newsModal1Label">March 2024 E-NEWS Bulletin</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body p-0">
+                                    <iframe
+                                        src="https://drive.google.com/file/d/1HcUs17CO8W_Kno79F2TaFVAoGwJbhXGT/preview"
+                                        width="100%" height="100%" style="border:none;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End Module 3 -->
+
+
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-item position-relative">
+                            <div class="icon bg-secondary">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <button type="button" class="btn stretched-link p-0 text-start" data-bs-toggle="modal"
+                                data-bs-target="#newsModal5">
+                                <h3 class="mb-1">July 2024 Bulletin</h3>
+                            </button>
+                            <p>Explore July’s edition covering student mobility programs, green entrepreneurship
+                                initiatives, and community-driven ecological projects.</p>
+                        </div>
+                    </div>
+
+                    <!-- Modal (Tam ekran) -->
+                    <div class="modal fade" id="newsModal5" tabindex="-1" aria-labelledby="newsModal5Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="newsModal5Label">July 2024 E-NEWS Bulletin</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body p-0">
+                                    <iframe
+                                        src="https://drive.google.com/file/d/1SHAWTASAQL1uodlTjflNnzE2ioktUkf7/preview"
+                                        width="100%" height="100%" style="border:none;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End Module 4 -->
+
+
+
+                </div>
+
+            </div>
+
+        </section><!-- /E-NEWS Section -->
+
+
+        <!-- Call To Action Section -->
+        <section id="call-to-action" class="call-to-action section accent-background">
+
+            <div class="container">
+                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-xl-10">
+                        <div class="text-center">
+                            <h3>Join Our Vibrant Community</h3>
+                            <p>
+                                At the heart of our digital library is a diverse and collaborative community where
+                                learning
+                                and sharing go hand in hand. Here, educators, professionals, and changemakers don’t
+                                just access resources—they exchange ideas, share experiences, contribute their own
+                                materials, and thrive together. Whether you’re looking to broaden your perspective,
+                                launch a new project, or connect with like-minded peers, our community offers the space
+                                and support to make it happen.
+
+                            </p>
+                            <a class="cta-btn" href="index.php?url=login">Join Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- /Call To Action Section -->
 
 
         <!-- Library Section -->
@@ -278,7 +524,7 @@ error_reporting(E_ALL);
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <span>Digital Library</span>
-                <h2>Educational Modules</h2>
+                <h2>Library</h2>
                 <p>Explore our structured learning paths designed to promote ecological awareness, digital literacy, and
                     global citizenship.</p>
             </div><!-- End Section Title -->
@@ -292,8 +538,8 @@ error_reporting(E_ALL);
                             <div class="icon">
                                 <i class="bi bi-1-circle"></i>
                             </div>
-                            <a href="#library" class="stretched-link">
-                                <h3>Module 1: Introduction to Sustainability</h3>
+                            <a href="index.php?url=Library&id=1" class="stretched-link">
+                                <h3>Level 1: Age 12-13</h3>
                             </a>
                             <p>Learn the fundamentals of ecological sustainability, climate change, and the UN
                                 Sustainable Development Goals.</p>
@@ -305,8 +551,8 @@ error_reporting(E_ALL);
                             <div class="icon">
                                 <i class="bi bi-2-circle"></i>
                             </div>
-                            <a href="#library" class="stretched-link">
-                                <h3>Module 2: Digital Citizenship</h3>
+                            <a href="index.php?url=Library&id=2" class="stretched-link">
+                                <h3>Level 2: Age 13-14</h3>
                             </a>
                             <p>Explore the rights and responsibilities of digital users and the role of technology in
                                 shaping society.</p>
@@ -318,8 +564,9 @@ error_reporting(E_ALL);
                             <div class="icon">
                                 <i class="bi bi-3-circle"></i>
                             </div>
-                            <a href="#library" class="stretched-link">
-                                <h3>Module 3: Eco-Education Practices</h3>
+                            <a href="index.php?url=Library&id=3" class="stretched-link">
+                                <h3>Level 3: Age 14-15
+                                </h3>
                             </a>
                             <p>Discover how to integrate sustainability themes into classrooms, curricula, and community
                                 learning.</p>
@@ -331,8 +578,8 @@ error_reporting(E_ALL);
                             <div class="icon">
                                 <i class="bi bi-4-circle"></i>
                             </div>
-                            <a href="#library" class="stretched-link">
-                                <h3>Module 4: Media & Information Literacy</h3>
+                            <a href="index.php?url=Library&id=4" class="stretched-link">
+                                <h3>Level 4: Age 15-16</h3>
                             </a>
                             <p>Develop critical thinking and analysis skills in evaluating information sources, media
                                 content, and digital platforms.</p>
@@ -344,8 +591,8 @@ error_reporting(E_ALL);
                             <div class="icon">
                                 <i class="bi bi-5-circle"></i>
                             </div>
-                            <a href="#library" class="stretched-link">
-                                <h3>Module 5: Green Innovation & Tech</h3>
+                            <a href="index.php?url=Library&id=5" class="stretched-link">
+                                <h3>Level 5: Age 16-17</h3>
                             </a>
                             <p>Explore how innovation, clean technology, and circular economy principles drive
                                 sustainable transformation.</p>
@@ -357,8 +604,8 @@ error_reporting(E_ALL);
                             <div class="icon">
                                 <i class="bi bi-6-circle"></i>
                             </div>
-                            <a href="#library" class="stretched-link">
-                                <h3>Module 6: Community & Action</h3>
+                            <a href="index.php?url=Library&id=6" class="stretched-link">
+                                <h3>Level 6: Age 17-18</h3>
                             </a>
                             <p>Learn how to apply your knowledge through community-based projects, civic engagement, and
                                 global collaboration.</p>
@@ -478,36 +725,13 @@ error_reporting(E_ALL);
         </section><!-- /Testimonials Section -->
 
 
-        <!-- Call To Action Section -->
-        <section id="call-to-action" class="call-to-action section accent-background">
 
-            <div class="container">
-                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="col-xl-10">
-                        <div class="text-center">
-                            <h3>Join Our Vibrant Community</h3>
-                            <p>
-                                At the heart of our digital library lies a diverse and supportive community where
-                                learning meets collaboration.
-                                Here, students and educators don’t just access knowledge—they exchange ideas, build
-                                friendships, and grow together.
-                                Whether you're looking to expand your perspective, start a new project, or simply
-                                connect with like-minded changemakers,
-                                our community is the place to be.
-                            </p>
-                            <a class="cta-btn" href="index.php?url=login">Join Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section><!-- /Call To Action Section -->
 
 
         <!-- Team Section -->
-        <section id="team" class="team section light-background">
+        <!-- <section id="team" class="team section light-background">
 
-            <!-- Section Title -->
+           
             <div class="container section-title" data-aos="fade-up">
                 <span>Our Team</span>
                 <h2>Meet the People Behind the Project</h2>
@@ -552,10 +776,10 @@ error_reporting(E_ALL);
 
 
 
-
+                
                     <div class="swiper-wrapper">
 
-                        <!-- Member 1 -->
+                      
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-1.jpg" class="img-fluid"
@@ -575,7 +799,7 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 2 -->
+                      
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-3.jpg" class="img-fluid"
@@ -595,7 +819,7 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 3 -->
+                     
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-3.jpg" class="img-fluid"
@@ -615,7 +839,6 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 4 -->
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-1.jpg" class="img-fluid"
@@ -634,7 +857,6 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 5 -->
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-2.jpg" class="img-fluid"
@@ -653,7 +875,7 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 6 -->
+                      
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-3.jpg" class="img-fluid"
@@ -673,7 +895,6 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 7 -->
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-1.jpg" class="img-fluid"
@@ -693,7 +914,6 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 8 -->
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-1.jpg" class="img-fluid"
@@ -713,7 +933,7 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                        <!-- Member 9 -->
+                       
                         <div class="swiper-slide">
                             <div class="member">
                                 <div class="pic"><img src="lib/temp/img/team/team-1.jpg" class="img-fluid"
@@ -733,13 +953,15 @@ error_reporting(E_ALL);
                             </div>
                         </div>
 
-                    </div><!-- End swiper-wrapper -->
+                    </div>
+            
 
                     <div class="swiper-pagination mt-4"></div>
                 </div>
             </div>
 
-        </section><!-- /Team Section -->
+        </section> -->
+        <!-- /Team Section -->
 
 
         <!--   Results Section -->
@@ -838,21 +1060,21 @@ error_reporting(E_ALL);
                     <div class="col-lg-5">
 
                         <div class="info-wrap">
-                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
                                     <h3>Address</h3>
                                     <p>A108 Adam Street, New York, NY 535022</p>
                                 </div>
-                            </div><!-- End Info Item -->
+                            </div> -->
 
-                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                                 <i class="bi bi-telephone flex-shrink-0"></i>
                                 <div>
                                     <h3>Call Us</h3>
                                     <p>+1 5589 55488 55</p>
                                 </div>
-                            </div><!-- End Info Item -->
+                            </div> -->
 
                             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                                 <i class="bi bi-envelope flex-shrink-0"></i>
@@ -864,7 +1086,7 @@ error_reporting(E_ALL);
 
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
+                                frameborder="0" style="border:0; width: 100%; height: 470px;" allowfullscreen=""
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
